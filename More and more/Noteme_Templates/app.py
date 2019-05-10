@@ -14,5 +14,5 @@ def index():
         user_comments[request.form["uname"]] = request.form["contents"]
         return redirect("/")   # hint: if we want to go back to index function, what should we do inside the redirect?
 File "/app/app.py"
-app.run(port=5050) - runs app
+app.run(port=5050) 
 
